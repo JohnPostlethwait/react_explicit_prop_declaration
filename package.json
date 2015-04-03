@@ -1,0 +1,49 @@
+{
+  "name": "react_explicit_prop_declaration",
+  "description": "",
+  "version": "0.1.0",
+  "author": "John Postlethwait <john.postlethwait@gmail.com>",
+  "website": "https://github.com/JohnPostlethwait/react_explicit_prop_declaration",
+  "contributors": [],
+
+  "keywords": ["react", "mixin", "proptypes", "properties", "explicit"],
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JohnPostlethwait/react_explicit_prop_declaration.git"
+  },
+
+  "main": "./index.js",
+
+  "engines": {
+    "node": ">= v0.10.26"
+  },
+
+  "licenses": [
+    {
+      "name": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.php"
+    }
+  ],
+
+  "dependencies": {
+    "thicket": "1.2.1"
+  },
+
+  "devDependencies": {
+    "jest-cli": "0.4.0",
+    "react": "0.13.1",
+    "react-tools": "0.13.1"
+  },
+
+  "scripts": {
+    "test": "./node_modules/.bin/jest"
+  },
+
+  "jest": {
+    "rootDir": "",
+    "scriptPreprocessor": "<rootDir>/preprocessor.js",
+    "testDirectoryName": "tests",
+    "unmockedModulePathPatterns": ["node_modules"]
+  }
+}
